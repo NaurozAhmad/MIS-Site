@@ -1,0 +1,8 @@
+.right-links .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.page-topbar .right-links .dropdown-menu::after, .page-topbar .right-links .dropdown-menu::before {
+	right: 36px;
+	left: auto;
+}
