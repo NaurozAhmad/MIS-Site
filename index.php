@@ -52,7 +52,13 @@
                         <div class="page-title">
 
                             <div class="pull-left">
-                                <h1 class="title">Dashboard</h1>
+                                <div class="btn-group btn-group-justified">         
+                                    <a type="button" class="btn btn-lg">Overview</a>
+                                    <a type="button" class="btn btn-success btn-lg">Admin</a>
+                                    <a type="button" class="btn btn-success btn-lg">Projects</a>
+                                    <a type="button" class="btn btn-success btn-lg">Revenue</a>
+                                    <a type="button" class="btn btn-success btn-lg">Finance</a>
+                                </div>
                             </div>
 
 
@@ -90,10 +96,7 @@
                                             <div class="clearfix"></div>
                                             <span class="db_compositebar">Loading...</span>
                                         </div>
-
                                     </div>
-
-
 
                                     <div class="col-md-6 col-sm-7 col-xs-12">
                                         <div class="r1_maingraph db_box">
@@ -109,7 +112,58 @@
                                             <div id="db_morris_bar_graph" style="height:272px;width:90%;display:none;"></div>
                                         </div>
                                     </div>
+                                    
+                                    <div class="col-md-3 col-sm-5 col-xs-12">
+                                        <div class="wid-notification" style="max-height: 340px; min-height: auto;">
+                                            <h4>Latest</h4>
 
+                                            <ul class="list-unstyled notification-widget" style="height: 268px;">
+
+
+                                                <li class="unread status-available">
+                                                    <a href="javascript:;">
+                                                        <div>
+                                                            <span class="name">
+                                                                <p class="time small">15 mins ago</p>
+                                                            </span>
+                                                            <span class="desc small">
+                                                                Sometimes it takes a lifetime to win a battle.
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="unread status-available">
+                                                    <a href="javascript:;">
+                                                        <div>
+                                                            <span class="name">
+                                                                <p class="time small">15 mins ago</p>
+                                                            </span>
+                                                            <span class="desc small">
+                                                                Sometimes it takes a lifetime to win a battle.
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+
+                                                <li class="unread status-available">
+                                                    <a href="javascript:;">
+                                                        <div>
+                                                            <span class="name">
+                                                                <p class="time small">15 mins ago</p>
+                                                            </span>
+                                                            <span class="desc small">
+                                                                Sometimes it takes a lifetime to win a battle.
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
                                 </div> <!-- End .row -->
 
                                 <div class="row">
