@@ -73,19 +73,11 @@
             
         </div>
         <!-- END CONTAINER -->
-        <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
-
-
+        
         <!-- CORE JS FRAMEWORK - START --> 
         <script src="assets/js/core.min.js"></script>
-        <!-- CORE JS FRAMEWORK - END --> 
-
-
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
-
 
         <!-- CORE TEMPLATE JS - START --> 
-        <script src="assets/js/scripts.js" type="text/javascript"></script> 
-        <!-- END CORE TEMPLATE JS - END -->
+        <script src="assets/js/scripts.js" type="text/javascript"></script>
     </body>
 </html>
