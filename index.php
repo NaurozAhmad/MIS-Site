@@ -1,409 +1,409 @@
 
 <!DOCTYPE html>
 <html class=" ">
-    <head>
+<head>
         <!-- 
          * @Package: Ultra Admin - Responsive Theme
          * @Subpackage: Bootstrap
          * @Version: 1.0
          * This file is part of Ultra Admin Theme.
-        -->
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <meta charset="utf-8" />
-        <title>Ultra Admin : Dashboard</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta content="" name="description" />
-        <meta content="" name="author" />
+     -->
+     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+     <meta charset="utf-8" />
+     <title>Ultra Admin : Dashboard</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+     <meta content="" name="description" />
+     <meta content="" name="author" />
 
-        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />    <!-- Favicon -->
-        <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57-precomposed.png">	<!-- For iPhone -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114-precomposed.png">    <!-- For iPhone 4 Retina display -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72-precomposed.png">    <!-- For iPad -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">    <!-- For iPad Retina display -->
+     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />    <!-- Favicon -->
+     <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57-precomposed.png">	<!-- For iPhone -->
+     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114-precomposed.png">    <!-- For iPhone 4 Retina display -->
+     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72-precomposed.png">    <!-- For iPad -->
+     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">    <!-- For iPad Retina display -->
 
-        <!-- CORE CSS FRAMEWORK - START -->
-        <link rel="stylesheet" type="text/css" href="assets/css/core.min.css">
-        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" />
+     <!-- CORE CSS FRAMEWORK - START -->
+     <link rel="stylesheet" type="text/css" href="assets/css/core.min.css">
+     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css" />
 
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
-        <link rel="stylesheet" href="assets/css/plugins.min.css" />
-        <link rel="stylesheet" href="assets/css/charts.min.css" />
-        <!-- assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css -->
+     <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
+     <link rel="stylesheet" href="assets/css/plugins.min.css" />
+     <link rel="stylesheet" href="assets/css/charts.min.css" />
+     <!-- assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css -->
 
-        <!-- CORE CSS TEMPLATE - START -->
-        <link rel="stylesheet" href="assets/css/custom.min.css" />
+     <!-- CORE CSS TEMPLATE - START -->
+     <link rel="stylesheet" href="assets/css/custom.min.css" />
 
-    </head>
-    <!-- END HEAD -->
+ </head>
+ <!-- END HEAD -->
 
-    <!-- BEGIN BODY -->
-    <body class=" ">
-        <?php require_once('includes/header.html') ?>
-        <!-- START CONTAINER -->
-        <div class="page-container row-fluid">
+ <!-- BEGIN BODY -->
+ <body class=" ">
+    <?php require_once('includes/header.html') ?>
+    <!-- START CONTAINER -->
+    <div class="page-container row-fluid">
 
-            <?php require_once('includes/sidebar.html') ?>
-            
-            <!-- START CONTENT -->
-            <section id="main-content" class=" ">
-                <section class="wrapper" style='margin-top:60px;display:inline-block;width:100%;padding:15px 0 0 15px;'>
+        <?php require_once('includes/sidebar.html') ?>
+        
+        <!-- START CONTENT -->
+        <section id="main-content" class=" ">
+            <section class="wrapper" style='margin-top:60px;display:inline-block;width:100%;padding:15px 0 0 15px;'>
 
-                    <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                        <div class="page-title">
+                <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <div class="page-title">
 
-                            <div class="pull-left">
-                                <div class="btn-group btn-group-justified">         
-                                    <a type="button" class="btn btn-lg">Overview</a>
-                                    <a type="button" class="btn btn-success btn-lg">Admin</a>
-                                    <a type="button" class="btn btn-success btn-lg">Projects</a>
-                                    <a type="button" class="btn btn-success btn-lg">Revenue</a>
-                                    <a type="button" class="btn btn-success btn-lg">Finance</a>
-                                </div>
+                        <div class="pull-left">
+                            <div class="btn-group btn-group-justified">         
+                                <a type="button" class="btn btn-lg">Overview</a>
+                                <a type="button" class="btn btn-success btn-lg">Admin</a>
+                                <a type="button" class="btn btn-success btn-lg">Projects</a>
+                                <a type="button" class="btn btn-success btn-lg">Revenue</a>
+                                <a type="button" class="btn btn-success btn-lg">Finance</a>
                             </div>
-
-
                         </div>
+
+
                     </div>
-                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
 
 
-                    <div class="col-lg-12">
-                        <section class="box nobox">
-                            <div class="content-body">
-                                <div class="row">
+                <div class="col-lg-12">
+                    <section class="box nobox">
+                        <div class="content-body">
+                            <div class="row">
 
-                                    <div class="col-md-3 col-sm-5 col-xs-12">
+                                <div class="col-md-3 col-sm-5 col-xs-12">
 
-                                        <div class="r1_graph1 db_box">
-                                            <span class='bold'>98.95%</span>
-                                            <span class='pull-right'><small>SERVER UP</small></span>
-                                            <div class="clearfix"></div>
-                                            <span class="db_dynamicbar">Loading...</span>
-                                        </div>
-
-
-                                        <div class="r1_graph2 db_box">
-                                            <span class='bold'>2332</span>
-                                            <span class='pull-right'><small>USERS ONLINE</small></span>
-                                            <div class="clearfix"></div>
-                                            <span class="db_linesparkline">Loading...</span>
-                                        </div>
-
-
-                                        <div class="r1_graph3 db_box">
-                                            <span class='bold'>342/123</span>
-                                            <span class='pull-right'><small>ORDERS / SALES</small></span>
-                                            <div class="clearfix"></div>
-                                            <span class="db_compositebar">Loading...</span>
-                                        </div>
+                                    <div class="r1_graph1 db_box">
+                                        <span class='bold'>98.95%</span>
+                                        <span class='pull-right'><small>SERVER UP</small></span>
+                                        <div class="clearfix"></div>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
 
-                                    <div class="col-md-6 col-sm-7 col-xs-12">
-                                        <div class="r1_maingraph db_box">
-                                            <span class='pull-left'>
-                                                <i class='icon-purple fa fa-square icon-xs'></i>&nbsp;<small>PAGE VIEWS</small>&nbsp; &nbsp;<i class='fa fa-square icon-xs icon-primary'></i>&nbsp;<small>UNIQUE VISITORS</small>
-                                            </span>
-                                            <span class='pull-right switch'>
-                                                <i class='icon-default fa fa-line-chart icon-xs'></i>&nbsp; &nbsp;<i class='icon-secondary fa fa-bar-chart icon-xs'></i>&nbsp; &nbsp;<i class='icon-secondary fa fa-area-chart icon-xs'></i>
-                                            </span>
 
-                                            <div id="db_morris_line_graph" style="height:272px;width:95%;"></div>
-                                            <div id="db_morris_area_graph" style="height:272px;width:90%;display:none;"></div>
-                                            <div id="db_morris_bar_graph" style="height:272px;width:90%;display:none;"></div>
+                                    <div class="r1_graph2 db_box">
+                                        <span class='bold'>2332</span>
+                                        <span class='pull-right'><small>USERS ONLINE</small></span>
+                                        <div class="clearfix"></div>
+                                        <span class="db_linesparkline">Loading...</span>
+                                    </div>
+
+
+                                    <div class="r1_graph3 db_box">
+                                        <span class='bold'>342/123</span>
+                                        <span class='pull-right'><small>ORDERS / SALES</small></span>
+                                        <div class="clearfix"></div>
+                                        <span class="db_compositebar">Loading...</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-sm-7 col-xs-12">
+                                    <div class="r1_maingraph db_box">
+                                        <span class='pull-left'>
+                                            <i class='icon-purple fa fa-square icon-xs'></i>&nbsp;<small>PAGE VIEWS</small>&nbsp; &nbsp;<i class='fa fa-square icon-xs icon-primary'></i>&nbsp;<small>UNIQUE VISITORS</small>
+                                        </span>
+                                        <span class='pull-right switch'>
+                                            <i class='icon-default fa fa-line-chart icon-xs'></i>&nbsp; &nbsp;<i class='icon-secondary fa fa-bar-chart icon-xs'></i>&nbsp; &nbsp;<i class='icon-secondary fa fa-area-chart icon-xs'></i>
+                                        </span>
+
+                                        <div id="db_morris_line_graph" style="height:272px;width:95%;"></div>
+                                        <div id="db_morris_area_graph" style="height:272px;width:90%;display:none;"></div>
+                                        <div id="db_morris_bar_graph" style="height:272px;width:90%;display:none;"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-3 col-sm-5 col-xs-12">
+                                    <div class="wid-notification" style="max-height: 340px; min-height: auto;">
+                                        <h4>Latest</h4>
+
+                                        <ul class="list-unstyled notification-widget" style="height: 268px;">
+
+
+                                            <li class="unread status-available">
+                                                <a href="javascript:;">
+                                                    <div>
+                                                        <span class="name">
+                                                            <p class="time small">15 mins ago</p>
+                                                        </span>
+                                                        <span class="desc small">
+                                                            Sometimes it takes a lifetime to win a battle.
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+                                            <li class="unread status-available">
+                                                <a href="javascript:;">
+                                                    <div>
+                                                        <span class="name">
+                                                            <p class="time small">15 mins ago</p>
+                                                        </span>
+                                                        <span class="desc small">
+                                                            Sometimes it takes a lifetime to win a battle.
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="unread status-available">
+                                                <a href="javascript:;">
+                                                    <div>
+                                                        <span class="name">
+                                                            <p class="time small">15 mins ago</p>
+                                                        </span>
+                                                        <span class="desc small">
+                                                            Sometimes it takes a lifetime to win a battle.
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div> <!-- End .row -->
+
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="r4_counter db_box">
+                                        <i class='pull-left fa fa-users icon-md icon-rounded icon-primary'></i>
+                                        <div class="stats">
+                                            <h4><strong>1,450</strong></h4>
+                                            <span>Employees</span>
                                         </div>
                                     </div>
-                                    
-                                    <div class="col-md-3 col-sm-5 col-xs-12">
-                                        <div class="wid-notification" style="max-height: 340px; min-height: auto;">
-                                            <h4>Latest</h4>
-
-                                            <ul class="list-unstyled notification-widget" style="height: 268px;">
-
-
-                                                <li class="unread status-available">
-                                                    <a href="javascript:;">
-                                                        <div>
-                                                            <span class="name">
-                                                                <p class="time small">15 mins ago</p>
-                                                            </span>
-                                                            <span class="desc small">
-                                                                Sometimes it takes a lifetime to win a battle.
-                                                            </span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-
-                                                <li class="unread status-available">
-                                                    <a href="javascript:;">
-                                                        <div>
-                                                            <span class="name">
-                                                                <p class="time small">15 mins ago</p>
-                                                            </span>
-                                                            <span class="desc small">
-                                                                Sometimes it takes a lifetime to win a battle.
-                                                            </span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-                                                <li class="unread status-available">
-                                                    <a href="javascript:;">
-                                                        <div>
-                                                            <span class="name">
-                                                                <p class="time small">15 mins ago</p>
-                                                            </span>
-                                                            <span class="desc small">
-                                                                Sometimes it takes a lifetime to win a battle.
-                                                            </span>
-                                                        </div>
-                                                    </a>
-                                                </li>
-
-                                            </ul>
-
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="r4_counter db_box">
+                                        <i class='pull-left fa fa-road icon-md icon-rounded icon-orange'></i>
+                                        <div class="stats">
+                                            <h4><strong>243</strong></h4>
+                                            <span>Projects</span>
                                         </div>
                                     </div>
-                                </div> <!-- End .row -->
-
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <div class="r4_counter db_box">
-                                            <i class='pull-left fa fa-users icon-md icon-rounded icon-primary'></i>
-                                            <div class="stats">
-                                                <h4><strong>1,450</strong></h4>
-                                                <span>Employees</span>
-                                            </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="r4_counter db_box">
+                                        <i class='pull-left fa fa-money icon-md icon-rounded icon-purple'></i>
+                                        <div class="stats">
+                                            <h4><strong>PKR. 3424</strong></h4>
+                                            <span>Month Profit</span>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <div class="r4_counter db_box">
-                                            <i class='pull-left fa fa-road icon-md icon-rounded icon-orange'></i>
-                                            <div class="stats">
-                                                <h4><strong>243</strong></h4>
-                                                <span>Projects</span>
-                                            </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                    <div class="r4_counter db_box">
+                                        <i class='pull-left fa fa-bar-chart icon-md icon-rounded icon-warning'></i>
+                                        <div class="stats">
+                                            <h4><strong>1.6</strong></h4>
+                                            <span>Profit Ratio</span>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <div class="r4_counter db_box">
-                                            <i class='pull-left fa fa-money icon-md icon-rounded icon-purple'></i>
-                                            <div class="stats">
-                                                <h4><strong>PKR. 3424</strong></h4>
-                                                <span>Month Profit</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <div class="r4_counter db_box">
-                                            <i class='pull-left fa fa-bar-chart icon-md icon-rounded icon-warning'></i>
-                                            <div class="stats">
-                                                <h4><strong>1.6</strong></h4>
-                                                <span>Profit Ratio</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- End .row -->
-                            </div>
-                        </section>
-                    </div>
-                </section>
+                                </div>
+                            </div> <!-- End .row -->
+                        </div>
+                    </section>
+                </div>
             </section>
-            <!-- END CONTENT -->
-            <div class="page-chatapi hideit">
+        </section>
+        <!-- END CONTENT -->
+        <div class="page-chatapi hideit">
 
-                <div class="search-bar">
-                    <input type="text" placeholder="Search" class="form-control">
-                </div>
-
-                <div class="chat-wrapper">
-                    <h4 class="group-head">Groups</h4>
-                    <ul class="group-list list-unstyled">
-                        <li class="group-row">
-                            <div class="group-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Work</a></h4>
-                            </div>
-                        </li>
-                        <li class="group-row">
-                            <div class="group-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Friends</a></h4>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">Favourites</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_1' data-user-id='1'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clarine Vassar</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_2' data-user-id='2'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Brooks Latshaw</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_3' data-user-id='3'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clementina Brodeur</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">More Contacts</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_4' data-user-id='4'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Carri Busey</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_5' data-user-id='5'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Melissa Dock</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_6' data-user-id='6'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Verdell Rea</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_7' data-user-id='7'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Linette Lheureux</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_8' data-user-id='8'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Araceli Boatright</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_9' data-user-id='9'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clay Peskin</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_10' data-user-id='10'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Loni Tindall</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_11' data-user-id='11'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Tanisha Kimbro</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_12' data-user-id='12'>
-                            <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Jovita Tisdale</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
+            <div class="search-bar">
+                <input type="text" placeholder="Search" class="form-control">
             </div>
 
+            <div class="chat-wrapper">
+                <h4 class="group-head">Groups</h4>
+                <ul class="group-list list-unstyled">
+                    <li class="group-row">
+                        <div class="group-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                        <div class="group-info">
+                            <h4><a href="#">Work</a></h4>
+                        </div>
+                    </li>
+                    <li class="group-row">
+                        <div class="group-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                        <div class="group-info">
+                            <h4><a href="#">Friends</a></h4>
+                        </div>
+                    </li>
 
-            <div class="chatapi-windows ">
+                </ul>
 
 
-            </div>    </div>
+                <h4 class="group-head">Favourites</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row" id='chat_user_1' data-user-id='1'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Clarine Vassar</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_2' data-user-id='2'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Brooks Latshaw</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_3' data-user-id='3'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Clementina Brodeur</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+                <h4 class="group-head">More Contacts</h4>
+                <ul class="contact-list">
+
+                    <li class="user-row" id='chat_user_4' data-user-id='4'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Carri Busey</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_5' data-user-id='5'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Melissa Dock</a></h4>
+                            <span class="status offline" data-status="offline"> Offline</span>
+                        </div>
+                        <div class="user-status offline">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_6' data-user-id='6'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Verdell Rea</a></h4>
+                            <span class="status available" data-status="available"> Available</span>
+                        </div>
+                        <div class="user-status available">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_7' data-user-id='7'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Linette Lheureux</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_8' data-user-id='8'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Araceli Boatright</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_9' data-user-id='9'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Clay Peskin</a></h4>
+                            <span class="status busy" data-status="busy"> Busy</span>
+                        </div>
+                        <div class="user-status busy">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_10' data-user-id='10'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Loni Tindall</a></h4>
+                            <span class="status away" data-status="away"> Away</span>
+                        </div>
+                        <div class="user-status away">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_11' data-user-id='11'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Tanisha Kimbro</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+                    <li class="user-row" id='chat_user_12' data-user-id='12'>
+                        <div class="user-img">
+                            <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                        </div>
+                        <div class="user-info">
+                            <h4><a href="#">Jovita Tisdale</a></h4>
+                            <span class="status idle" data-status="idle"> Idle</span>
+                        </div>
+                        <div class="user-status idle">
+                            <i class="fa fa-circle"></i>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="chatapi-windows ">
+
+
+        </div>    </div>
         <!-- END CONTAINER -->
         <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
 
@@ -463,13 +463,13 @@
         </div>
         <!-- modal end -->
     </body>
-</html>
+    </html>
 
 
 
 
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
 
-</script>
+    </script>
