@@ -59,7 +59,6 @@
                 </div>
                 <div class="clearfix"></div>
 
-             
                 <div class="col-lg-12">
                     <section class="box nobox">
                         <div class="content-body">
@@ -104,7 +103,7 @@
                                                 <label class="form-label" for="field-4">Designation</label>
                                                 <span class="desc">Select Designation</span>
                                                 <div class="controls">
-                                                   <select class="form-control input-sm m-bot15" name="employee_designation">
+                                                 <select class="form-control input-sm m-bot15" name="employee_designation">
                                                     <option>Chairman</option>
                                                     <option>Member</option>
                                                     <option>General Manager</option>
@@ -119,7 +118,7 @@
                                                 <label class="form-label" for="field-5">Current Status</label>
                                                 <span class="desc">Select Status</span>
                                                 <div class="controls">
-                                                   <select class="form-control input-sm m-bot15" name="employee_status">
+                                                 <select class="form-control input-sm m-bot15" name="employee_status">
                                                     <option>Computer Bureau</option>
                                                     <option>Transport</option>
                                                     <option>Finance</option>
@@ -154,8 +153,71 @@
 </section>
 </div>
 
-This is testing
-</section>
+<!-- Php for fetching employees data -->
+<?php 
+
+
+
+?>
+<!-- php for fetching employees data ends here -->
+<div class="col-lg-12">
+    <section class="box ">
+        <header class="panel_header">
+            <h2 class="title pull-left">Employees</h2>
+            <div class="actions panel_actions pull-right">
+                <i class="box_toggle fa fa-chevron-down"></i>
+                <i class="box_setting fa fa-cog" data-toggle="modal" href="#section-settings"></i>
+                <i class="box_close fa fa-times"></i>
+            </div>
+        </header>
+        <div style="display: block;" class="content-body">    <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Father / Husband Name</th>
+                                <th>Designation</th>
+                                <th>Status</th>
+                                <th>BS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php   
+                            require_once("connection.php");
+
+                            $sql = "SELECT * FROM employee";
+                            $result = mysqli_query($conn, $sql);   
+
+                            if (mysqli_num_rows($result) > 0) {
+                                    // output data of each row
+                             
+                                $i=1;
+                                while($row = mysqli_fetch_assoc($result)) {
+                                    
+                                 
+
+                                      ?>
+                                    <tr>
+                                        <th scope="row"><?php echo $i;?></th>
+                                        <td><?php echo $row['employee_name'];?></td>
+                                        <td><?php echo $row['employee_fhname'];?></td>
+                                        <td><?php echo $row['employee_designation'];?></td>
+                                        <td><?php echo $row['employee_status'];?></td>
+                                        <td><?php echo $row['employee_bs'];?></td>
+                                    </tr>
+                                    <?php         $i++;       }
+                                 mysqli_close($conn); } ?>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></div></section>
 </section>
 <!-- END CONTENT -->
 
