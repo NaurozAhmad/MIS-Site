@@ -130,16 +130,16 @@
               <?php 
               if(isset($_POST['submit']))
               {
-                echo $designation = $_POST['filter_designation'];
-                echo $status = $_POST['filter_status'];
-                echo $bs = $_POST['filter_bs'];
+                 $designation = $_POST['filter_designation'];
+                 $status = $_POST['filter_status'];
+                 $bs = $_POST['filter_bs'];
 
-                $sql = "SELECT * FROM employee where employee.employee_designation LIKE '$designation' and employee.employee_status LIKE '$status' and employee.employee_bs =='$bs'";
+                $sql = "SELECT * FROM employee where employee.employee_designation LIKE '$designation' and employee.employee_status LIKE '$status' and employee.employee_bs = '$bs'";
                 $result = mysqli_query($conn, $sql);   
                 if (mysqli_num_rows($result) > 0) {
 // output data of each row
                   $i=1;?>
-                <thead>
+                <thead> 
                     <tr>
                       <th>#</th>
                       <th>Name</th>
