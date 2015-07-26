@@ -2,12 +2,6 @@
 <!DOCTYPE html>
 <html class=" ">
     <head>
-        <!-- 
-         * @Package: Ultra Admin - Responsive Theme
-         * @Subpackage: Bootstrap
-         * @Version: 1.0
-         * This file is part of Ultra Admin Theme.
-        -->
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta charset="utf-8" />
         <title>Ultra Admin : Dashboard</title>
@@ -74,6 +68,8 @@
         </div>
         <!-- END CONTAINER -->
         
+        <?php require_once('includes/footer.html') ?>
+
         <!-- CORE JS FRAMEWORK - START --> 
         <script src="assets/js/core.min.js"></script>
 

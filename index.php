@@ -2,12 +2,6 @@
 <!DOCTYPE html>
 <html class=" ">
 <head>
-        <!-- 
-         * @Package: Ultra Admin - Responsive Theme
-         * @Subpackage: Bootstrap
-         * @Version: 1.0
-         * This file is part of Ultra Admin Theme.
-     -->
      <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
      <meta charset="utf-8" />
      <title>Ultra Admin : Dashboard</title>
@@ -53,14 +47,13 @@
 
                         <div class="pull-left">
                             <div class="btn-group btn-group-justified">         
-                                <a type="button" class="btn btn-lg">Overview</a>
-                                <a type="button" class="btn btn-success btn-lg">Admin</a>
-                                <a type="button" class="btn btn-success btn-lg">Projects</a>
-                                <a type="button" class="btn btn-success btn-lg">Revenue</a>
-                                <a type="button" class="btn btn-success btn-lg">Finance</a>
+                                <a href="index.php" type="button" class="btn btn-dashboard active btn-lg">Overview</a>
+                                <a href="admin.php" type="button" class="btn btn-dashboard btn-lg">Admin</a>
+                                <a href="under.html" type="button" class="btn btn-dashboard btn-lg">Projects</a>
+                                <a href="under.html" type="button" class="btn btn-dashboard btn-lg">Revenue</a>
+                                <a href="under.html" type="button" class="btn btn-dashboard btn-lg">Finance</a>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
@@ -172,7 +165,7 @@
                                         <i class='pull-left fa fa-users icon-md icon-rounded icon-primary'></i>
                                         <div class="stats">
                                             <h4><strong>1,450</strong></h4>
-                                            <span>Employees</span>
+                                            <span>Total Employees</span>
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +174,7 @@
                                         <i class='pull-left fa fa-road icon-md icon-rounded icon-orange'></i>
                                         <div class="stats">
                                             <h4><strong>243</strong></h4>
-                                            <span>Projects</span>
+                                            <span>Active Projects</span>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +183,7 @@
                                         <i class='pull-left fa fa-money icon-md icon-rounded icon-purple'></i>
                                         <div class="stats">
                                             <h4><strong>PKR. 3424</strong></h4>
-                                            <span>Month Profit</span>
+                                            <span>Last Month Profit</span>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +192,7 @@
                                         <i class='pull-left fa fa-bar-chart icon-md icon-rounded icon-warning'></i>
                                         <div class="stats">
                                             <h4><strong>1.6</strong></h4>
-                                            <span>Profit Ratio</span>
+                                            <span>Income / Expense Ratio</span>
                                         </div>
                                     </div>
                                 </div>

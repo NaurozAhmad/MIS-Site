@@ -22,6 +22,14 @@ module.exports = function(grunt) {
 						'assets/plugins/rickshaw-chart/css/rickshaw.min.css',
 						'assets/plugins/rickshaw-chart/css/lines.css'
 					],
+					'assets/css/admin-charts.min.css': [
+						'assets/plugins/rickshaw-chart/css/graph.css',
+						'assets/plugins/rickshaw-chart/css/detail.css',
+						'assets/plugins/rickshaw-chart/css/legend.css',
+						'assets/plugins/rickshaw-chart/css/extensions.css',
+						'assets/plugins/rickshaw-chart/css/rickshaw.min.css',
+						'assets/plugins/rickshaw-chart/css/lines.css'
+					],
 					'assets/css/plugins.min.css': [
 						'assets/plugins/jquery-ui/smoothness/jquery-ui.min.css',
 						'assets/plugins/icheck/skins/minimal/white.css'
