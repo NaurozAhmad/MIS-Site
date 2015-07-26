@@ -89,7 +89,7 @@
         </div>
         <div class="form-element">
             <label class="form-label">Status</label>
-            <select class="" id="s2example-2" name="filter_designation">
+            <select class="" id="s2example-2" name="filter_status">
                 <option value="0">All</option>
                 <option value="Computer Bureau">Computer Bureau</option>
                 <option value="Transport">Transport</option>
@@ -100,7 +100,7 @@
         </div>
         <div class="form-element">
             <label class="form-label">BS</label>
-            <select class="" style="width: 100%; height: 32px;" name="filter_designation">
+            <select class="" style="width: 100%; height: 32px;" name="filter_bs">
                 <option value="0">All</option>
                 <option value="17">17</option>
                 <option value="18">18</option>
@@ -130,8 +130,11 @@
               <?php 
               if(isset($_POST['submit']))
               {
-                $designation = $_POST['filter_designation'];
-                $sql = "SELECT * FROM employee where employee.employee_designation LIKE'$designation'";
+                echo $designation = $_POST['filter_designation'];
+                echo $status = $_POST['filter_status'];
+                echo $bs = $_POST['filter_bs'];
+
+                $sql = "SELECT * FROM employee where employee.employee_designation LIKE '$designation' and employee.employee_status LIKE '$status' and employee.employee_bs =='$bs'";
                 $result = mysqli_query($conn, $sql);   
                 if (mysqli_num_rows($result) > 0) {
 // output data of each row
