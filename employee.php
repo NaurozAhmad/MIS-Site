@@ -68,8 +68,8 @@
 
 <div class="col-lg-12">
     <a href="#myModal" data-toggle="modal" class="btn btn-purple">
-                        Add Employee
-                    </a>
+        Add Employee
+    </a>
   <section class="box"> 
     <!-- This is filter Section -->
     <form id="filter-form" name="filter-form" action="#" method="post" class="form-inline">
@@ -207,6 +207,8 @@
 
 </div>
 <!-- END CONTAINER -->
+
+<?php require_once('includes/footer.html') ?>
 
 <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade" style="display: none;">
     <div class="modal-dialog">

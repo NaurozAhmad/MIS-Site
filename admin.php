@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Ultra Admin : Dashboard</title>
+    <title>Dashboard - Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -68,7 +68,7 @@
 
                                     <div class="r1_graph1 db_box">
                                         <span class='bold'>98.95%</span>
-                                        <span class='pull-right'><small>SERVER UP</small></span>
+                                        <span class='pull-right'><small>Employees Present</small></span>
                                         <div class="clearfix"></div>
                                         <span class="db_dynamicbar">Loading...</span>
                                     </div>
@@ -76,17 +76,17 @@
 
                                     <div class="r1_graph2 db_box">
                                         <span class='bold'>2332</span>
-                                        <span class='pull-right'><small>USERS ONLINE</small></span>
+                                        <span class='pull-right'><small>Medical</small></span>
                                         <div class="clearfix"></div>
-                                        <span class="db_linesparkline">Loading...</span>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
 
 
                                     <div class="r1_graph3 db_box">
                                         <span class='bold'>342/123</span>
-                                        <span class='pull-right'><small>ORDERS / SALES</small></span>
+                                        <span class='pull-right'><small>Training</small></span>
                                         <div class="clearfix"></div>
-                                        <span class="db_compositebar">Loading...</span>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
                                 </div>
 
@@ -94,24 +94,24 @@
                                     
                                     <div class="r1_graph1 r1_graph_custom4 db_box">
                                         <span class='bold'>2332</span>
-                                        <span class='pull-right'><small>USERS ONLINE</small></span>
+                                        <span class='pull-right'><small>Revenue</small></span>
                                         <div class="clearfix"></div>
-                                        <span class="db_linesparkline">Loading...</span>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
 
 
                                     <div class="r1_graph1 r1_graph_custom5 db_box">
                                         <span class='bold'>342/123</span>
-                                        <span class='pull-right'><small>ORDERS / SALES</small></span>
+                                        <span class='pull-right'><small>Transport</small></span>
                                         <div class="clearfix"></div>
-                                        <span class="db_compositebar">Loading...</span>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
 
                                     <div class="r1_graph1 r1_graph_custom6 db_box">
                                         <span class='bold'>342/123</span>
-                                        <span class='pull-right'><small>ORDERS / SALES</small></span>
+                                        <span class='pull-right'><small>Inventory</small></span>
                                         <div class="clearfix"></div>
-                                        <span class="db_compositebar">Loading...</span>
+                                        <span class="db_dynamicbar">Loading...</span>
                                     </div>
 
                                 </div>
@@ -227,14 +227,16 @@
                                     </div>
                                 </div>
                                 <div class="dashboard-info-cards col-md-4 col-sm-6 col-xs-6">
-                                    <div class="r4_counter db_box">
-                                        <i class='pull-left fa fa-briefcase icon-md icon-rounded icon-orange'></i>
-                                        <div class="stats">
-                                            <h4><strong>PKR. 1,200,000</strong></h4>
-                                            <span>Training</span>
+                                    <a href="training.php">
+                                        <div class="r4_counter db_box">
+                                            <i class='pull-left fa fa-briefcase icon-md icon-rounded icon-orange'></i>
+                                            <div class="stats">
+                                                <h4><strong>PKR. 1,200,000</strong></h4>
+                                                <span>Training</span>
+                                            </div>
+                                            <p style="background-color: #FA8564;">Training <i class="fa fa-chevron-right"></i></p>
                                         </div>
-                                        <p style="background-color: #FA8564;">Training <i class="fa fa-chevron-right"></i></p>
-                                    </div>
+                                    </a>
                                 </div>
                                 <div class="dashboard-info-cards col-md-4 col-sm-6 col-xs-6">
                                     <div class="r4_counter db_box">
