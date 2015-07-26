@@ -1,4 +1,4 @@
-
+<?php require_once("connection.php");?>
 <!DOCTYPE html>
 <html class=" ">
 <head>
@@ -27,6 +27,7 @@
 
      <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
      <link rel="stylesheet" href="assets/css/plugins.min.css" />
+     <link href="assets/plugins/select2/select2.css" rel="stylesheet" type="text/css" media="screen"/>
      <!-- assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css -->
 
      <!-- CORE CSS TEMPLATE - START -->
@@ -104,14 +105,14 @@
                                                 <span class="desc">Select Designation</span>
                                                 <div class="controls">
                                                  <select class="form-control input-sm m-bot15" name="employee_designation">
-                                                    <option>Chairman</option>
-                                                    <option>Member</option>
-                                                    <option>General Manager</option>
-                                                    <option>Director</option>
-                                                    <option>Deputy Director</option>
-                                                    <option>Driver</option>
-                                                    <option>Computer Operator</option>
-                                                    <option>Clerk</option>
+                                                    <option value="Chairman">Chairman</option>
+                                                    <option value="Member">Member</option>
+                                                    <option value="General Manager">General Manager</option>
+                                                    <option value="Director">Director</option>
+                                                    <option value="Deputy Director">Deputy Director</option>
+                                                    <option value="Driver">Driver</option>
+                                                    <option value="Computer Operator">Computer Operator</option>
+                                                    <option value="Clerk">Clerk</option>
                                                 </select>
                                             </div></div>
                                             <div class="form-group">
@@ -119,11 +120,11 @@
                                                 <span class="desc">Select Status</span>
                                                 <div class="controls">
                                                  <select class="form-control input-sm m-bot15" name="employee_status">
-                                                    <option>Computer Bureau</option>
-                                                    <option>Transport</option>
-                                                    <option>Finance</option>
-                                                    <option>HR</option>
-                                                    <option>Operations</option>
+                                                    <option value="Computer Bureau">Computer Bureau</option>
+                                                    <option value="Transport">Transport</option>
+                                                    <option value="Finance">Finance</option>
+                                                    <option value="HR">HR</option>
+                                                    <option value="Operations">Operations</option>
                                                 </select>
                                             </div></div>
                                         </div>
@@ -156,50 +157,55 @@
 <div class="col-lg-12">
     <section class="box "> 
 <!-- This is filter Section -->
-
+<form id="filter-form" name="filter-form" action="#" method="post">
 <table>
     <tr>
-        <td style="padding-left:10px"><select class="form-control input-sm m-bot15" name="">
-                                                    <option>Select Designation</option>
-                                                    <option>Chairman</option>
-                                                    <option>Member</option>
-                                                    <option>General Manager</option>
-                                                    <option>Director</option>
-                                                    <option>Deputy Director</option>
-                                                    <option>Driver</option>
-                                                    <option>Computer Operator</option>
-                                                    <option>Clerk</option>
-                                                </select></td>
-        <td style="padding-left:10px"> <select class="form-control input-sm m-bot15" name="">
-                                                    <option>Select Designation</option>
-                                                    <option>Chairman</option>
-                                                    <option>Member</option>
-                                                    <option>General Manager</option>
-                                                    <option>Director</option>
-                                                    <option>Deputy Director</option>
-                                                    <option>Driver</option>
-                                                    <option>Computer Operator</option>
-                                                    <option>Clerk</option>
-                                                </select></td>
-        <td style="padding-left:10px"> <select class="form-control input-sm m-bot15" name="">
-                                                    <option>Select Designation</option>
-                                                    <option>Chairman</option>
-                                                    <option>Member</option>
-                                                    <option>General Manager</option>
-                                                    <option>Director</option>
-                                                    <option>Deputy Director</option>
-                                                    <option>Driver</option>
-                                                    <option>Computer Operator</option>
-                                                    <option>Clerk</option>
-                                                </select></td>
-                                                 <td style="padding-left:10px"><button type="submit" name="submit" class="btn btn-default">Filter</button>
+        <td style="padding-left:10px">
+               <div class="col-md-12 col-sm-12 col-xs-12">
+                     <div class="form-group">
+                        <label class="form-label">Select Designation</label>
+                            <select class="" id="s2example-1" name="filter_designation">
+                                    <option value="0">Select Designation</option>
+                                    <option value="Chairman">Chairman</option>
+                                    <option value="Member">Member</option>
+                                    <option value="General Manager">General Manager</option>
+                                    <option value="Director">Director</option>
+                                    <option value="Deputy Director">Deputy Director</option>
+                                    <option value="Driver">Driver</option>
+                                    <option value="Computer Operator">Computer Operator</option>
+                                    <option value="Clerk">Clerk</option>
+                            </select>                           
+                        </div>
+                    </div>
+        </td>
+        <td style="padding-left:10px">
+            <select class="form-control input-sm m-bot15" name="filter_status">
+                <option value="0">Select Status</option>
+                <option value="Computer Bureau">Computer Bureau</option>
+                <option value="Transport">Transport</option>
+                <option value="Finance">Finance</option>
+                <option value="0">HR</option>
+                <option value="0">Operations</option>
+            </select>
+        </td>
+        <td style="padding-left:10px">
+            <select class="form-control input-sm m-bot15" name="bs">
+                <option value="0">Select BS</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+            </select>
+        </td>
+        <td style="padding-left:10px"><button type="submit" name="submit" class="btn btn-default">Submit</button>
 <td>
     </tr>
    
 </table>
-
-
-                                               
+</form>
+                                       
 
 
 <!-- This is filter Section -->
@@ -212,7 +218,18 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="table-responsive">
                     <table class="table table-bordered">
-                        <thead>
+                       
+                        <tbody>
+                                    <?php 
+                                    if(isset($_POST['submit']))
+                                    {
+                              $designation = $_POST['filter_designation'];
+                                    $sql = "SELECT * FROM employee where employee.employee_designation LIKE'$designation'";
+                                    $result = mysqli_query($conn, $sql);   
+                                    if (mysqli_num_rows($result) > 0) {
+                                            // output data of each row
+                                            $i=1;?>
+                                          <thead>
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
@@ -223,22 +240,10 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php   
-                            require_once("connection.php");
-
-                            $sql = "SELECT * FROM employee";
-                            $result = mysqli_query($conn, $sql);   
-
-                            if (mysqli_num_rows($result) > 0) {
-                                    // output data of each row
-                             
-                                $i=1;
-                                while($row = mysqli_fetch_assoc($result)) {
-                                    
-                                 
-
-                                      ?>
-                                    <tr>
+                                            <?php 
+                                            while($row = mysqli_fetch_assoc($result)) {
+                                    ?>
+                                            <tr>
                                         <th scope="row"><?php echo $i;?></th>
                                         <td><?php echo $row['employee_name'];?></td>
                                         <td><?php echo $row['employee_fhname'];?></td>
@@ -247,7 +252,38 @@
                                         <td><?php echo $row['employee_bs'];?></td>
                                     </tr>
                                     <?php         $i++;       }
-                                 mysqli_close($conn); } ?>
+                                 mysqli_close($conn); }else if(mysqli_num_rows($result) == 0){echo "No Records Found";}
+                                    }
+                                    else{
+                                    $sql = "SELECT * FROM employee";
+                                    $result = mysqli_query($conn, $sql);   
+                                    if (mysqli_num_rows($result) > 0) {
+                                            // output data of each row
+                                            $i=1;?>
+  <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Father / Husband Name</th>
+                                <th>Designation</th>
+                                <th>Status</th>
+                                <th>BS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                            <?php 
+                                            while($row = mysqli_fetch_assoc($result)) {
+                                    ?>
+                                            <tr>
+                                        <th scope="row"><?php echo $i;?></th>
+                                        <td><?php echo $row['employee_name'];?></td>
+                                        <td><?php echo $row['employee_fhname'];?></td>
+                                        <td><?php echo $row['employee_designation'];?></td>
+                                        <td><?php echo $row['employee_status'];?></td>
+                                        <td><?php echo $row['employee_bs'];?></td>
+                                    </tr>
+                                    <?php         $i++;       }
+                                 mysqli_close($conn); } }?>
                                 
                             </tbody>
                         </table>
@@ -264,7 +300,7 @@
 
 <!-- CORE JS FRAMEWORK - START --> 
 <script src="assets/js/core.min.js"></script>
-
+<script src="assets/plugins/select2/select2.min.js" type="text/javascript"></script>
 <!-- CORE TEMPLATE JS - START --> 
 <script src="assets/js/scripts.js" type="text/javascript"></script>
 </body>
