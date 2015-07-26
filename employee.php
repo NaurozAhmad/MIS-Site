@@ -156,7 +156,10 @@
 <div class="col-lg-12">
     <section class="box "> 
 <!-- This is filter Section -->
-<select class="form-control input-sm m-bot15" name="">
+
+<table>
+    <tr>
+        <td style="padding-left:10px"><select class="form-control input-sm m-bot15" name="">
                                                     <option>Select Designation</option>
                                                     <option>Chairman</option>
                                                     <option>Member</option>
@@ -166,8 +169,8 @@
                                                     <option>Driver</option>
                                                     <option>Computer Operator</option>
                                                     <option>Clerk</option>
-                                                </select>
-                                                <select class="form-control input-sm m-bot15" name="">
+                                                </select></td>
+        <td style="padding-left:10px"> <select class="form-control input-sm m-bot15" name="">
                                                     <option>Select Designation</option>
                                                     <option>Chairman</option>
                                                     <option>Member</option>
@@ -177,7 +180,26 @@
                                                     <option>Driver</option>
                                                     <option>Computer Operator</option>
                                                     <option>Clerk</option>
-                                                </select>
+                                                </select></td>
+        <td style="padding-left:10px"> <select class="form-control input-sm m-bot15" name="">
+                                                    <option>Select Designation</option>
+                                                    <option>Chairman</option>
+                                                    <option>Member</option>
+                                                    <option>General Manager</option>
+                                                    <option>Director</option>
+                                                    <option>Deputy Director</option>
+                                                    <option>Driver</option>
+                                                    <option>Computer Operator</option>
+                                                    <option>Clerk</option>
+                                                </select></td>
+                                                 <td style="padding-left:10px"><button type="submit" name="submit" class="btn btn-default">Filter</button>
+<td>
+    </tr>
+   
+</table>
+
+
+                                               
 
 
 <!-- This is filter Section -->
