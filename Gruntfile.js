@@ -29,7 +29,8 @@ module.exports = function(grunt) {
 					'assets/css/custom.min.css': [
 						'assets/css/style.css',
 						'assets/css/responsive.css',
-						'assets/css/custom.css'
+						'assets/css/custom.css',
+						'assets/css/footer.css'
 					]
 				}
 			}
