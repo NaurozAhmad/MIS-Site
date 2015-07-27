@@ -76,7 +76,7 @@
         <div class="form-element">
             <label class="form-label">Designation</label>
             <select id="s2example-1" name="filter_designation">
-                <option value="0">All</option>
+                <option value="">All</option>
                 <option value="Chairman">Chairman</option>
                 <option value="Member">Member</option>
                 <option value="General Manager">General Manager</option>
@@ -90,7 +90,7 @@
         <div class="form-element">
             <label class="form-label">Status</label>
             <select class="" id="s2example-2" name="filter_status">
-                <option value="0">All</option>
+                <option value="">All</option>
                 <option value="Computer Bureau">Computer Bureau</option>
                 <option value="Transport">Transport</option>
                 <option value="Finance">Finance</option>
@@ -101,7 +101,7 @@
         <div class="form-element">
             <label class="form-label">BS</label>
             <select class="" style="width: 100%; height: 32px;" name="filter_bs">
-                <option value="0">All</option>
+                <option value="">All</option>
                 <option value="17">17</option>
                 <option value="18">18</option>
                 <option value="19">19</option>
@@ -133,8 +133,9 @@
                  $designation = $_POST['filter_designation'];
                  $status = $_POST['filter_status'];
                  $bs = $_POST['filter_bs'];
-
-                $sql = "SELECT * FROM employee where employee.employee_designation LIKE '$designation' and employee.employee_status LIKE '$status' and employee.employee_bs = '$bs'";
+                 	
+                 	$sql = "SELECT * FROM employee where employee.employee_designation LIKE '$designation' and employee.employee_status LIKE '$status' and employee.employee_bs = '$bs'";
+              
                 $result = mysqli_query($conn, $sql);   
                 if (mysqli_num_rows($result) > 0) {
 // output data of each row
@@ -155,7 +156,7 @@
                   ?>
                   <tr>
                     <th scope="row"><?php echo $i;?></th>
-                    <td><?php echo $row['employee_name'];?></td>
+                    <td><a href="profile.php" style="color:inherit;"><?php echo $row['employee_name'];?></a></td>
                     <td><?php echo $row['employee_fhname'];?></td>
                     <td><?php echo $row['employee_designation'];?></td>
                     <td><?php echo $row['employee_status'];?></td>
@@ -186,7 +187,7 @@
                 ?>
                 <tr>
                   <th scope="row"><?php echo $i;?></th>
-                  <td><?php echo $row['employee_name'];?></td>
+                  <td><a href="profile.php style="color:inherit;"><?php echo $row['employee_name'];?></a></td>
                   <td><?php echo $row['employee_fhname'];?></td>
                   <td><?php echo $row['employee_designation'];?></td>
                   <td><?php echo $row['employee_status'];?></td>
