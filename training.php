@@ -346,11 +346,13 @@
 
                             </div>
                             <!-- END CONTAINER -->
+                            <?php require_once('includes/footer.html') ?>
 
                             <!-- CORE JS FRAMEWORK - START --> 
                             <script src="assets/js/core.min.js"></script>
                             <script src="assets/plugins/select2/select2.min.js" type="text/javascript"></script>
                             <!-- CORE TEMPLATE JS - START --> 
                             <script src="assets/js/scripts.js" type="text/javascript"></script>
+                            <script src="assets/js/custom.js"></script>
                           </body>
                           </html>
