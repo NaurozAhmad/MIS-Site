@@ -26,6 +26,7 @@
 
      <!-- CORE CSS TEMPLATE - START -->
      <link rel="stylesheet" href="assets/css/custom.min.css" />
+     <link rel="stylesheet" href="assets/css/custom.css" />
 
  </head>
  <!-- END HEAD -->

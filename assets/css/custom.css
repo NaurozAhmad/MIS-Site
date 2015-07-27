@@ -6,12 +6,12 @@
 	right: 36px;
 	left: auto;
 }
-.page-topbar .logo-area {
+.page-topbar .logo-area, .page-topbar.sidebar_shift .logo-area {
 	background-image: none;
 }
-.logo-area h2 {
+.logo-area h3 {
 	text-align: center;
-	margin: 10px 0;
+	margin: 16px 0;
 	font-weight: bold;
 	color: #FFF;
 }
@@ -70,19 +70,21 @@
          -o-animation: fadein .6s; /* Opera < 12.1 */
             animation: fadein .6s;
 }
-.dashboard-info-cards a {
+.dashboard-info-cards a, .profile-row a {
 	color: inherit;
 }
-.dashboard-info-cards a:hover, .dashboard-info-cards a:focus {
+.dashboard-info-cards a:hover, .dashboard-info-cards a:focus, .profile-card a:hover, .profile-card a:focus {
 	text-decoration: none;
 }
 .dashboard-info-cards .db_box p .fa {
 	width: auto;
 	height: auto;
 }
-.dashboard-info-cards .db_box:hover {
+.dashboard-info-cards .db_box:hover, .profile-card:hover {
 	box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.2);
 	cursor: pointer;
+}
+.dashboard-info-cards .db_box:hover {
 	min-height: 130px;
 }
 .dashboard-info-cards .db_box:hover p {
@@ -131,4 +133,44 @@
 	display: inline-block;
 	width: 200px;
 	margin-right: 18px;
+}
+.profile-card {
+	background-color: #FFF;
+	min-height: 200px;
+	margin: 10px 10px;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	min-height: 226px;
+	transition: all 400ms ease 0s;
+}
+.profile-card.small {
+	width: 30%;
+}
+.profile-card h4 {
+	text-align: center;
+	margin-top: 0;
+}
+.profile-card h1 {
+	text-align: center;
+	font-size: 46px;
+}
+.profile-card p {
+	margin: 4px 0;
+}
+.profile-card.wide {
+	width: 97%;
+}
+.uprofile-info {
+	padding: 25px 20px 15px;
+}
+.uprofile-info .col {
+	font-weight: bold;
+	width: 40px;
+}
+.uprofile-info td {
+	padding-right: 6px;
+}
+.modal .row {
+	padding: 6px 12px;
 }

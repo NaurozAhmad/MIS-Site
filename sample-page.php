@@ -75,5 +75,6 @@
 
         <!-- CORE TEMPLATE JS - START --> 
         <script src="assets/js/scripts.js" type="text/javascript"></script>
+        <script src="assets/js/custom.js"></script>
     </body>
 </html>

@@ -32,6 +32,7 @@
 
 <!-- CORE CSS TEMPLATE - START -->
 <link rel="stylesheet" href="assets/css/custom.min.css" />
+<link rel="stylesheet" href="./assets/css/custom.css" />
 
 <link href="assets/plugins/datatables/css/jquery.dataTables.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="assets/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" rel="stylesheet" type="text/css" media="screen"/>
@@ -296,5 +297,6 @@
 <script src="assets/plugins/select2/select2.min.js" type="text/javascript"></script>
 <!-- CORE TEMPLATE JS - START --> 
 <script src="assets/js/scripts.js" type="text/javascript"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>
