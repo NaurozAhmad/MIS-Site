@@ -188,7 +188,7 @@
                 ?>
                 <tr>
                   <th scope="row"><?php echo $i;?></th>
-                  <td><a href="profile.php style="color:inherit;"><?php echo $row['employee_name'];?></a></td>
+                  <td><a href="profile.php" style="color:inherit;"><?php echo $row['employee_name'];?></a></td>
                   <td><?php echo $row['employee_fhname'];?></td>
                   <td><?php echo $row['employee_designation'];?></td>
                   <td><?php echo $row['employee_status'];?></td>
